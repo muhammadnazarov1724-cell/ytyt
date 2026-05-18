@@ -11,6 +11,8 @@
     --color-cyan-50: oklch(98.4% 0.019 200.873);
     --color-white: #fff;
     --spacing: 0.25rem;
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --font-weight-bold: 700;
     --leading-loose: 2;
     --radius-2xl: 1rem;
@@ -238,6 +240,15 @@
   .h-\[250px\] {
     height: 250px;
   }
+  .h-\[420\] {
+    height: 420;
+  }
+  .h-\[450\] {
+    height: 450;
+  }
+  .h-\[450px\] {
+    height: 450px;
+  }
   .h-\[500px\] {
     height: 500px;
   }
@@ -265,6 +276,9 @@
   .w-\[1\] {
     width: 1;
   }
+  .w-\[10px\] {
+    width: 10px;
+  }
   .w-\[62px\] {
     width: 62px;
   }
@@ -276,6 +290,15 @@
   }
   .w-\[100\%\] {
     width: 100%;
+  }
+  .w-\[150px\] {
+    width: 150px;
+  }
+  .w-\[200px\] {
+    width: 200px;
+  }
+  .w-\[300px\] {
+    width: 300px;
   }
   .w-\[390px\] {
     width: 390px;
@@ -315,6 +338,9 @@
   }
   .gap-\[15px\] {
     gap: 15px;
+  }
+  .gap-\[25px\] {
+    gap: 25px;
   }
   .gap-\[30px\] {
     gap: 30px;
@@ -422,6 +448,9 @@
   .p-\[10px\] {
     padding: 10px;
   }
+  .p-\[12px\] {
+    padding: 12px;
+  }
   .p-\[15px\] {
     padding: 15px;
   }
@@ -485,6 +514,9 @@
   .py-\[30px\] {
     padding-block: 30px;
   }
+  .py-\[35px\] {
+    padding-block: 35px;
+  }
   .py-\[50px\] {
     padding-block: 50px;
   }
@@ -493,6 +525,10 @@
   }
   .text-center {
     text-align: center;
+  }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
   .text-\[12px\] {
     font-size: 12px;
@@ -629,6 +665,16 @@
       height: 110px;
     }
   }
+  .lg\:h-\[210ps\] {
+    @media (width >= 64rem) {
+      height: 210ps;
+    }
+  }
+  .lg\:h-\[210px\] {
+    @media (width >= 64rem) {
+      height: 210px;
+    }
+  }
   .lg\:h-\[270px\] {
     @media (width >= 64rem) {
       height: 270px;
@@ -682,6 +728,11 @@
   .lg\:w-\[160px\] {
     @media (width >= 64rem) {
       width: 160px;
+    }
+  }
+  .lg\:w-\[300px\] {
+    @media (width >= 64rem) {
+      width: 300px;
     }
   }
   .lg\:w-\[400px\] {
@@ -817,6 +868,16 @@
   .lg\:p-\[100px\] {
     @media (width >= 64rem) {
       padding: 100px;
+    }
+  }
+  .lg\:px-\[50px\] {
+    @media (width >= 64rem) {
+      padding-inline: 50px;
+    }
+  }
+  .lg\:px-\[100px\] {
+    @media (width >= 64rem) {
+      padding-inline: 100px;
     }
   }
   .lg\:text-justify {
