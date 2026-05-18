@@ -204,6 +204,9 @@
   .my-\[30px\] {
     margin-block: 30px;
   }
+  .my-\[40px\] {
+    margin-block: 40px;
+  }
   .my-\[50px\] {
     margin-block: 50px;
   }
@@ -291,11 +294,20 @@
   .w-\[100\%\] {
     width: 100%;
   }
+  .w-\[100px\] {
+    width: 100px;
+  }
+  .w-\[120px\] {
+    width: 120px;
+  }
   .w-\[150px\] {
     width: 150px;
   }
   .w-\[200px\] {
     width: 200px;
+  }
+  .w-\[250px\] {
+    width: 250px;
   }
   .w-\[300px\] {
     width: 300px;
@@ -330,6 +342,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-\[5px\] {
+    gap: 5px;
+  }
   .gap-\[10px\] {
     gap: 10px;
   }
@@ -338,6 +353,9 @@
   }
   .gap-\[15px\] {
     gap: 15px;
+  }
+  .gap-\[20px\] {
+    gap: 20px;
   }
   .gap-\[25px\] {
     gap: 25px;
@@ -539,6 +557,9 @@
   .text-\[14px\] {
     font-size: 14px;
   }
+  .text-\[15px\] {
+    font-size: 15px;
+  }
   .text-\[18px\] {
     font-size: 18px;
   }
@@ -586,6 +607,15 @@
   }
   .text-\[\#22253B\] {
     color: #22253B;
+  }
+  .text-\[gr\] {
+    color: gr;
+  }
+  .text-\[gra\] {
+    color: gra;
+  }
+  .text-\[gray\] {
+    color: gray;
   }
   .text-\[white\] {
     color: white;
@@ -678,6 +708,11 @@
   .lg\:h-\[270px\] {
     @media (width >= 64rem) {
       height: 270px;
+    }
+  }
+  .lg\:h-\[300px\] {
+    @media (width >= 64rem) {
+      height: 300px;
     }
   }
   .lg\:h-\[350px\] {
@@ -810,6 +845,11 @@
       max-width: 1400px;
     }
   }
+  .lg\:max-w-\[12000px\] {
+    @media (width >= 64rem) {
+      max-width: 12000px;
+    }
+  }
   .lg\:grid-cols-2 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -825,6 +865,11 @@
       align-items: center;
     }
   }
+  .lg\:justify-around {
+    @media (width >= 64rem) {
+      justify-content: space-around;
+    }
+  }
   .lg\:justify-baseline {
     @media (width >= 64rem) {
       justify-content: baseline;
@@ -838,6 +883,16 @@
   .lg\:justify-center {
     @media (width >= 64rem) {
       justify-content: center;
+    }
+  }
+  .lg\:justify-end {
+    @media (width >= 64rem) {
+      justify-content: flex-end;
+    }
+  }
+  .lg\:justify-evenly {
+    @media (width >= 64rem) {
+      justify-content: space-evenly;
     }
   }
   .lg\:gap-\[10px\] {
